@@ -1,0 +1,136 @@
+/* Home Page Start */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px; /* Set a maximum width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add some padding for spacing inside the container */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 8px;
+    border: 2px solid #ccc; /* Add border to create a box around each button */
+}
+
+.navbar a.home {
+    background-color: #ffadad; /* Change background color for Home button */
+    color: rgb(0, 0, 0); /* Change text color for Home button */
+    border-color: #c21313; /* Change border color for Home button */
+}
+.navbar a.calci,a.signup {
+    background-color: #cfc6ff; /* Change background color for Home button */
+    color: rgb(0, 0, 0); /* Change text color for Home button */
+    border-color: #2600ff; /* Change border color for Home button */
+}
+
+/*======= Home Page End ======*/
+
+/* ====== Sign Up Page Start ====== */
+.signup-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 15px 60px;
+    font-size: 16px;
+    border: 2px solid black;
+    margin-top: 6px;
+    margin-left: 80px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    margin-left: 260px;
+    margin-top: 10px;
+    padding: 14px 30px;
+    font-size: 16px;
+    border: 2px solid black ;
+    cursor: pointer;
+}
+/* ====== Sign Up Page End ====== */
+/* ====== Calci Page Start ====== */
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.result-field {
+    text-align: right;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-row.center {
+    display: flex;
+    justify-content: center;
+}
+
+.button.zero {
+    width: 30%; /* Adjust the width as needed */
+}
+
+.operator {
+    background-color: #f44336;
+}
+/* ====== Calci Page Ends ====== */
